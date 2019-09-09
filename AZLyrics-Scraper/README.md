@@ -1,4 +1,4 @@
-# AZ Lyrics Scraper
+# AZLyrics Scraper
 
 [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg?style=for-the-badge)](https://GitHub.com/dojutsu-user/IMDB-Scraper/graphs/contributors/)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
