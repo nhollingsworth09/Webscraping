@@ -3,7 +3,7 @@
 
 # Overview
 
-This is a [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) web scraping implementation used to crawl [AZLyrics](https://www.azlyrics.com) website to lyric information and then store the data as a single file in `text` format. The text file was later used in a Markov Chain text generator.
+This is a [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) web scraping implementation used to crawl [AZLyrics](https://www.azlyrics.com) website to extract lyrics then store the data as a single file in `text` format. The text file was later used in a Markov Chain text generator.
 
 ## Usage
 Documention to come...
