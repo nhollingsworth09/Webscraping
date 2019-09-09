@@ -48,9 +48,10 @@ class AZLyrics_Spider():
 path = r'C:/Users/nholl/Dropbox/2019 FALL/Text Analytics/Code/Scrape'
 os.chdir(path)
 
-crawl = AZLyrics_Spider('https://www.azlyrics.com/e/eminem.html')
-crawl.get_song_urls()
-crawl.scrape_lyrics()
+if __name__ == "main":
+    crawl = AZLyrics_Spider('https://www.azlyrics.com/e/eminem.html')
+    crawl.get_song_urls()
+    crawl.scrape_lyrics()
 
 
 
