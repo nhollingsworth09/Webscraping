@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+Improvements to be made: 
+    - Allow use in CMD by including `sys` args
+    - Add more error handling
+'''
 
 import requests
 from bs4 import BeautifulSoup
@@ -48,7 +53,7 @@ class AZLyrics_Spider():
 path = r'C:/Users/nholl/Dropbox/2019 FALL/Text Analytics/Code/Scrape'
 os.chdir(path)
 
-if __name__ == "main":
+if __name__ == "__main__":
     crawl = AZLyrics_Spider('https://www.azlyrics.com/e/eminem.html')
     crawl.get_song_urls()
     crawl.scrape_lyrics()
